@@ -1,0 +1,4 @@
+g++ filters.cpp main.cpp Timer.cpp -o out -O3 -g0  -lm -lX11 -lpthread -lrt
+
+ g++ -L/usr/lib32 filters.cpp main.cpp Timer.cpp device_info.c -o out -O3 -g0  -lm -lX11 -lpthread -lrt -lOpenCL
+
